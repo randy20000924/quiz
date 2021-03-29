@@ -1,9 +1,12 @@
 function change() {
-    var header = document.getElementById("hid123");
-    header.innerHTML = "CSIE@CGU";
-   
-    var para = document.getElementById("pid123");
-    para.innerHTML = "怎麼那麼棒！！.";
+    $(document).ready(function(){
+        $("button").click(function(){
+            $("#H1").text("CSIE@CGU");
+        });
+        $("button").click(function(){
+            $("#P").text("怎麼那麼棒！！");
+        });
+    });
    
     }
 function myFunction() { 
